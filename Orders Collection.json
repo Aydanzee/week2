@@ -1,0 +1,14 @@
+{
+   _id: ObjectId,
+   customerId: ObjectId,
+   items: [
+     {
+        itemId: ObjectId,
+        quantity: number
+     }
+   ],
+   totalAmount: number,
+   status: string,
+   orderDate: date,
+   deliveryAddress: string
+}
